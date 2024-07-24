@@ -1,0 +1,84 @@
+html {
+  width: 12in;
+  margin: auto;
+  background-color: #cbe1ce;
+}
+body {
+  margin-top: -20px;
+  height: 1680px;
+  color: #444139;
+  background: #f3f3ef;
+}
+.home {
+  background: #57975f;
+  border-top: 2px solid #444139;
+  width: 170px;
+}
+.projects,
+.resume,
+.linkedin,
+.gitHub,
+.filler {
+  background: #57975f;
+  border-top: 2px solid #444139;
+  width: 170px;
+}
+.filler p {
+  text-align: center;
+  font-size: 90%;
+  margin: 0 0 0 0;
+  position: relative;
+  top: 800px;
+}
+.pfp {
+  margin-top: 5px;
+}
+a {
+  text-decoration: none;
+  color: #444139;
+}
+a:hover {
+  text-decoration: underline;
+  color: #444139;
+}
+h1 {
+  color: #444139;
+}
+#menu div {
+  padding: 15px;
+}
+#menu {
+  margin: 0px 0px 0px -12px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 200px 100px 100px 100px 100px 100px 980px;
+  width: 200px;
+  float: left;
+  background: #57975f;
+}
+img {
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+#text {
+  margin: 0 0 0 220px;
+}
+#allProjects {
+  text-indent: 1em;
+}
+#allProjects li {
+  text-indent: 0;
+  margin-left: 300px;
+}
+#allProjects li a {
+  text-decoration: underline;
+  color: blue;
+}
+.fProjects li a {
+  text-decoration: underline;
+  color: blue;
+}
+.desc {
+  margin-left: 100px;
+}
+
