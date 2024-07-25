@@ -19,7 +19,7 @@
          "title": "RSS & Atom Feeds",
          "location": "pages/feeds.html",
          "imageLink": "resources/newspaper.png",
-         "description": "Made both a RSS and Atom feed for webpage. Contains articles about running and track events I find interesting. Click Lab 4 link or image for formatted RSS and XML. Link to raw RSS: <a href = '/Labs/ITWS1100-Lab4-RSS&Atom/IntroITWS-Lab4-RSS&Atom-TemplateRSS.xml'>Click to view raw RSS feed</a>. Link to raw Atom: <a href = '/Labs/ITWS1100-Lab4-RSS&Atom/IntroITWS-Lab4-RSS&Atom-TemplateAtom.xml'> Click to view raw Atom feed</a>"
+         "description": "Made both a RSS and Atom feed for webpage. Contains articles about running and track events I find interesting. Click Lab 4 link or image for formatted RSS and XML. Link to raw RSS: <a href = '/Labs/ITWS1100-Lab4-RSS&Atom/RSSRunFeed.xml'>Click to view raw RSS feed</a>. Link to raw Atom: <a href = 'Labs/ITWS1100-Lab4-RSS&Atom/AtomRunFeed.xml'> Click to view raw Atom feed</a>"
       },
       {
          "labNum": "Lab 5",
