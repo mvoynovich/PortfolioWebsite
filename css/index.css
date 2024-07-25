@@ -2,18 +2,17 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   width: 12in;
   margin: auto;
-  background-color: #131417;
-  
+  background-color: #e7e7e7;
 }
 body {
   margin-top: -20px;
   height: 1680px;
-  color: #Afb6cd;
-  background: #252830;
+  color: #444139;
+  background: #fffffe;
 }
 .home {
-  background: #353944;
-  border-top: 2px solid #Afb6cd;
+  background: #e4e6e4;
+  border-top: 2px solid #444139;
   width: 170px;
 }
 .projects,
@@ -21,8 +20,8 @@ body {
 .linkedin,
 .gitHub,
 .filler {
-  background: #353944;
-  border-top: 2px solid #Afb6cd;
+  background: #e4e6e4;
+  border-top: 2px solid #444139;
   width: 170px;
 }
 .filler p {
@@ -37,14 +36,14 @@ body {
 }
 a {
   text-decoration: none;
-  color: #Afb6cd;
+  color: #444139;
 }
 a:hover {
   text-decoration: underline;
-  color: #Afb6cd;
+  color: #444139;
 }
 h1 {
-  color: #Afb6cd;
+  color: #444139;
 }
 #menu div {
   padding: 15px;
@@ -56,7 +55,7 @@ h1 {
   grid-template-rows: 200px 100px 100px 100px 100px 100px 980px;
   width: 200px;
   float: left;
-  background: #353944;
+  background: #e4e6e4;
 }
 img {
   margin: 10px 10px 10px 10px;

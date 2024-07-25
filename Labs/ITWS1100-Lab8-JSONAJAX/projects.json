@@ -38,7 +38,7 @@
       {
          "labNum": "Lab 7",
          "title": "Lost & Found - HCI",
-         "location": "#",
+         "location": "https://github.com/mvoynovich/LostAndFound",
          "imageLink": "resources/lostAndFound.png",
          "description": "Worked with group on developing personas and design template for lost and found application. Created two personas to test and exempliy our use cases and potential users. Made diagrams for layout of website and how it would function for design purposes. Will implement link to project as it progresses"
       },

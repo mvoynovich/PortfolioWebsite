@@ -12,7 +12,7 @@
 
 <?php
   $dbOk = false;
-  @ $db = new mysqli('localhost', 'phpmyadmin', '453376Hajduk1911', 'iit');
+  @ $db = new mysqli('localhost', 'root', '', 'iit');
 
   if ($db->connect_error) {
     echo '<div class="messages">Could not connect to the database. Error: ';
