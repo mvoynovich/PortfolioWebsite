@@ -17,7 +17,7 @@
       body {
          width: 100%;
          font-family: 'Times New Roman', Times, serif;
-         background-color: seashell;
+         background-color: #e4e6e4;
       }
 
       h1 {
@@ -25,9 +25,16 @@
          margin: 0;
          padding: 0;
          font-variant: small-caps;
+         
 
       }
-
+      h1 a{
+         color: #0a5da5;
+      }
+      li a {
+         color: #0a5da5;
+      }
+    
       h2 {
          float: left;
          clear: left;
@@ -35,10 +42,11 @@
          margin: 0px 0px 100px 1.50em;
          padding: 0;
          font-size: 1.2em;
+         color: #0a5da5;
       }
 
       .leader {
-         color: blue;
+         color: #3386FF;
       }
 
 
@@ -68,12 +76,12 @@
       }
 
       a {
-         color: lightslategray;
+         color: black;
       }
 
       div {
          width: 100%;
-         border-bottom: 2px solid lightslategray;
+         
       }
 
       div {
@@ -102,17 +110,16 @@
 <body>
    <h1><a href="https://www.linkedin.com/in/matthew-c-voynovich" target ="_blank">Matthew Voynovich</a></h1><br>
    <ul id="contactInfo">
-      <li>76 Westwood Circle,</li>
-      <li>Roslyn Heights, NY 11577</li>
+      <li>76 Westwood Circle, Roslyn Heights, NY 11577</li><li> |</li>
       <li>917-391-8499</li>
-      <li>Voynovich.Matt@gmail.com</li>
+      <br><li>Voynovich.Matt@gmail.com</li><li>|</li><li><a href = "https://www.linkedin.com/in/matthew-c-voynovich" >https://www.linkedin.com/in/matthew-c-voynovich</a></li>
    </ul>
    <div id="profile">
       <h2>Profile</h2>
       <ul class = "indent">
          <li>Information Technology and Web Science (ITWS) major at Rensselaer Polytechnic Institute, furthering my understanding of ITWS and Computer Science</li>
-         <li>Currently learning and programming in Python and Java; web development in HTML5, CSS, and JavaScript; and analyzing data in R and Excel</li>
-         <li>Passionate long distance runner; 7x All County and 1x All Conference in high school; Rensselaer running club member<br><br><br></li>
+         <li>Currently learning and programming in Python, Java, and C++; web development in HTML5, CSS, JavaScript, SQL, and PHP</li>
+         <li>Passionate long distance runner; 7x All County and 1x All Conference in high school; high school track captain; Rensselaer Running Club events coordinator<br><br><br></li>
       </ul>
    </div>
    
@@ -120,9 +127,10 @@
       <h2>Education</h2>
       <p>
          <strong>Rensselaer Polytechnic Institute,</strong> Troy, New York <mark>08/2023 - Present</mark><br>
-         <strong>Information Technology and Web Science Major,</strong> Freshman
+         <strong>Information Technology and Web Science Major,</strong> Sophomore
       </p>
       <ul class = indent>
+            <li> 3.95 GPA; 2x Dean's Honor List</li>
             <li>Focus on learning new marketable skills such as programming, web development, and data analytics<br><br></li>
       </ul>
       <p>
@@ -141,14 +149,36 @@
             </ul>
          </li>
          <li>Won multiple department and athletic awards for outstanding performance in academics and sports</li>
-         <li>Member of Roslyn Track and Cross Country Team; Captained team to two county wins Junior and Senior year<br><br></li>
+         <li>Member of Roslyn Track and Cross Country Team; Captained team to two county wins Junior and Senior year<br><br><br></li>
       </ul>
+   </div>
+   
+   <div id = "experience">
+      <h2>Experience</h2>
+      <p>
+         <strong>Lost and Found Forum</strong><mark>11/23</mark>
+      </p>
+      <ul class = "indent">
+         <li>Also known as Hound, this project with two other classmates hoped to provide a solution to RPI's lackluster lost and found system. This web application unified disparate systems and provided an acessible and functional platform for managing lost and found items. This project focused on utilization of databases through PHP and SQL, and Git and Github for revision control and team collaboration</li>
+      </ul>
+      <br><p>
+         <strong>Portfolio Website</strong><mark>9/23</mark>
+      </p>
+      <ul class = "indent">
+         <li>Website to showcase projects and information about myself. Contains mini-projects that highlight my progress in both fornt-end and back-end development for the web. This project focused on teaching the fundamentals of web development from basic HTML and CSS to utilizing databases with PHP and dynamic page updates with JavaScript and JQuery</li>
+      </ul><br><br><br>
    </div>
 
    <div id="awards">
       <h2>Awards & Achievements</h2>
       <p>
-         <strong>Outstanding Achievement in Advanced Placement Computer Science A</strong><mark>06/2023</mark>
+         <strong>Dean's Honor List</strong><mark>12/2023 - 07/2024</mark>
+      </p>
+      <ul class="indent">
+         <li>Given to students who attain a semester grade point average of 3.50 or better, and have no grade below a C at RPI</li>
+      </ul>
+      <p>
+         <br><strong>Outstanding Achievement in Advanced Placement Computer Science A</strong><mark>06/2023</mark>
       </p>
       <ul class="indent">
          <li>Awarded to the top performing student in AP Computer Science A</li>
@@ -236,25 +266,20 @@
          <li><strong>Programming</strong></li>
          <li class = "noBullet">
             <ul>
-               <li>Java, Python</li>
+               <li>Java, Python, C++</li>
             </ul>
          </li>
          <li><strong>Web Development</strong></li>
          <li class = "noBullet">
             <ul>
-               <li>HTML, CSS, JavaScript</li>
-            </ul>
-         </li>
-         <li><strong>Data Analysis</strong></li>
-         <li class = "noBullet">
-            <ul>
-               <li>Excel and R</li>
+               <li>HTML, CSS, JavaScript, PHP, SQL</li>
             </ul>
          </li>
          <li><strong>Leadership and Team Work</strong></li>
          <li class = "noBullet">   
             <ul>
-               <li>Captained Track and Cross Country Team in High School<br><br><br></li>
+               <li>Captained Track and Cross Country Team in High School</li>
+               <li>Collaboration on Hound through valuable github tools such as issues and branches<br><br><br></li>
             </ul>
          </li>
       </ul>
@@ -273,7 +298,7 @@
          <strong>Rensselaer Running Club</strong>
       </p>
       <ul class="indent">
-         <li>Member, training and racing 5k's and above with the team</li>
+         <li>Events Coordinator, scheduling races and club bonding events. Training and racing 5k's and above with the team</li>
       </ul>
       <p>
          <strong>Bryant Library Volunteer</strong>

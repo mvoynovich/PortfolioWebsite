@@ -3,7 +3,7 @@
 
 ### Purpose
 
-This is a personal website that I have created as a place to showcase my projects and infromation about myself. This website will host small passion projects I hope to pursue in the future alongside coursework that I think is important to share. Here, not only will you be able to learn who I am, but you will be able to see what I both love to do and can accomplish. 
+This is a personal website that I have created as a place to showcase my projects and information about myself. This website will host small passion projects I hope to pursue in the future alongside coursework that I think is important to share. Here, not only will you be able to learn who I am, but you will be able to see what I both love to do and can accomplish. 
 
 ## Projects
 
@@ -13,5 +13,5 @@ Group project that I undertook with two other collaborators to provide solutions
 
 ### Mini-Projects
 
-Also known as Labs on the website, are small projects that were either baked into the website to slowly improve it and make it better, or were standalone pages that taught me about web development. These projects bring you along my journey to learn the fundamentals of web development from nothing. 
+Also known as Labs on the website, are small projects that were either baked into the website to slowly improve it and make it better, or were standalone pages that taught me about web development. These projects bring you along my journey to learn the fundamentals of web development from nothing (Instructions in the respective README's for each). 
 
