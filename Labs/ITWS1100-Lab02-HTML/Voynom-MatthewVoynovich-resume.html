@@ -4,29 +4,21 @@
 <head>
    <meta charset="UTF-8" />
    <title>Matthew Voynovich</title>
-
-
-
    <style>
       html {
          width: 8.5in;
          margin: auto;
-         
       }
-
       body {
          width: 100%;
          font-family: 'Times New Roman', Times, serif;
          background-color: #e4e6e4;
       }
-
       h1 {
          text-align: center;
          margin: 0;
          padding: 0;
          font-variant: small-caps;
-         
-
       }
       h1 a{
          color: #0a5da5;
@@ -81,11 +73,9 @@
 
       div {
          width: 100%;
-         
-      }
-
-      div {
          margin: 2em 0px 0px 0px;
+         border-bottom: 2px solid #333;
+
       }
 
       mark {
@@ -104,11 +94,80 @@
       .noBullet{
          list-style-type: none;
       }
+
+      #navigation {
+         box-sizing: border-box;
+         font-family: Arial, Helvetica, sans-serif;
+         position: fixed;
+         top:0;
+         left:0;
+         width: 100%;
+         padding: 1em 5em;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         z-index: 100;
+         background-color: #202A44;
+       }
+       .name {
+         box-sizing: border-box;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 2.5em;
+         color: white;
+         text-decoration: none;
+         font-weight: 700;
+       }
+       
+       .navbar a{
+         box-sizing: border-box;
+         font-family: Arial, Helvetica, sans-serif;
+         position: relative;
+         font-size: 1.4em;
+         color: white;
+         font-weight: 500;
+         text-decoration: none;
+         margin-left: 1.5em;
+       }
+       
+       .navbar a::before{
+         box-sizing: border-box;
+         font-family: Arial, Helvetica, sans-serif;
+         content: "";
+         position: absolute;
+         top: 100%;
+         left:0;
+         width: 0;
+         height: 0.125em;
+         background: white;
+         transition: .3s;
+       }
+       
+       .navbar a:hover::before{ 
+         box-sizing: border-box;
+         font-family: Arial, Helvetica, sans-serif;
+         width:100%;
+       }
+       #ResumeStart{
+         padding-top: 3em;
+       }
    </style>
 </head>
 
 <body>
-   <h1><a href="https://www.linkedin.com/in/matthew-c-voynovich" target ="_blank">Matthew Voynovich</a></h1><br>
+   <header id = "navigation">
+      <a href = "#" class = "name">Matthew Voynovich</a>
+      <nav class = "navbar">
+        <a href = "/index.html#aboutContainer">Home</a>
+        <a href = "/Labs/ITWS1100-Lab02-HTML/Voynom-MatthewVoynovich-resume.html">Resume</a>
+        <a href = "/index.html#projectsContainer">Projects</a>
+        <a href = "#">Contact</a>
+        <a href = "https://github.com/mvoynovich" target ="_blank">Github</a>
+        <a href = "https://www.linkedin.com/in/matthew-c-voynovich" target ="_blank">LinkedIn</a>
+        
+        
+      </nav>
+    </header>
+   <h1 id="ResumeStart"><a href="https://www.linkedin.com/in/matthew-c-voynovich" target ="_blank">Matthew Voynovich</a></h1><br>
    <ul id="contactInfo">
       <li>76 Westwood Circle, Roslyn Heights, NY 11577</li><li> |</li>
       <li>917-391-8499</li>
